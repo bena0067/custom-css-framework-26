@@ -1,0 +1,23 @@
+@use 'variables' as *;
+
+.text-primary { color: $primary; }
+.text-secondary { color: $secondary; }
+.bg-primary { background-color: $primary; }
+.bg-secondary { background-color: $secondary; }
+
+.fs-small { font-size: $font-size-small; }
+.fs-base { font-size: $font-size-base; }
+.fs-large { font-size: $font-size-large; }
+.m-small { margin: $spacing-small; }
+.m-medium { margin: $spacing-medium; }
+.m-large { margin: $spacing-large; }
+
+.p-small { padding: $spacing-small; }
+.p-medium { padding: $spacing-medium; }
+.p-large { padding: $spacing-large; }
+
+.fw-normal { font-weight: $font-weight-normal; }
+.fw-bold { font-weight: $font-weight-bold; }
+
+.border { border: $border-width solid $border-color; }
+.rounded { border-radius: $border-radius; }
