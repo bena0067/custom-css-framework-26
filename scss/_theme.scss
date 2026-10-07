@@ -1,0 +1,181 @@
+@use "variables" as *;
+
+/* Base */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $font-size-base;
+    color: $text-color;
+    background-color: $background-color;
+    line-height: 1.6;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $secondary;
+    font-weight: $font-weight-bold;
+    margin-bottom: $spacing-medium;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: $font-size-small;
+}
+
+/* Paragraphs */
+
+p {
+    margin-bottom: $spacing-medium;
+}
+
+/* Links */
+
+a {
+    color: $primary;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+
+ul,
+ol {
+    margin-bottom: $spacing-medium;
+    padding-left: $spacing-large;
+}
+
+li {
+    margin-bottom: $spacing-small;
+}
+
+/* Buttons */
+
+button,
+input[type="submit"],
+input[type="button"] {
+    background-color: $primary;
+    color: white;
+    border: $border-width solid $primary;
+    border-radius: $border-radius;
+    padding: $spacing-small $spacing-medium;
+    font-size: $font-size-base;
+    font-weight: $font-weight-bold;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    opacity: 0.85;
+}
+
+/* Forms */
+
+form {
+    margin-bottom: $spacing-large;
+}
+
+label {
+    display: block;
+    margin-bottom: $spacing-small;
+    font-weight: $font-weight-bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: $spacing-small;
+    margin-bottom: $spacing-medium;
+    font-size: $font-size-base;
+    color: $text-color;
+    background-color: $background-color;
+    border: $border-width solid $border-color;
+    border-radius: $border-radius;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid $primary;
+    outline-offset: 2px;
+}
+
+/* Tables */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: $spacing-large;
+}
+
+th,
+td {
+    padding: $spacing-small $spacing-medium;
+    border: $border-width solid $border-color;
+    text-align: left;
+}
+
+th {
+    background-color: $secondary;
+    color: white;
+    font-weight: $font-weight-bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+/* Horizontal rule */
+
+hr {
+    border: 0;
+    border-top: $border-width solid $border-color;
+    margin: $spacing-large 0;
+}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+}
+
+/* Blockquotes */
+
+blockquote {
+    margin: $spacing-large 0;
+    padding: $spacing-medium;
+    border-left: 4px solid $primary;
+    background-color: #f3f4f6;
+    font-style: italic;
+}

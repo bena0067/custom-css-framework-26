@@ -26,5 +26,6 @@ Member 1 completed Requirements 1 and 2.
 
 ```text
 scss/
+├── _theme.scss
 ├── _variables.scss
 └── main.scss
