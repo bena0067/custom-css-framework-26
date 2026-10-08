@@ -1,0 +1,238 @@
+.text-primary {
+  color: #7c3aed;
+}
+
+.text-secondary {
+  color: #111827;
+}
+
+.bg-primary {
+  background-color: #7c3aed;
+}
+
+.bg-secondary {
+  background-color: #111827;
+}
+
+.fs-small {
+  font-size: 0.875rem;
+}
+
+.fs-base {
+  font-size: 1rem;
+}
+
+.fs-large {
+  font-size: 1.25rem;
+}
+
+.m-small {
+  margin: 0.5rem;
+}
+
+.m-medium {
+  margin: 1rem;
+}
+
+.m-large {
+  margin: 2rem;
+}
+
+.p-small {
+  padding: 0.5rem;
+}
+
+.p-medium {
+  padding: 1rem;
+}
+
+.p-large {
+  padding: 2rem;
+}
+
+.fw-normal {
+  font-weight: 400;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.border {
+  border: 1px solid #d1d5db;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+/* Base */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #111827;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111827;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+  color: #7c3aed;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Lists */
+ul,
+ol {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Buttons */
+button,
+input[type=submit],
+input[type=button] {
+  background-color: #7c3aed;
+  color: white;
+  border: 1px solid #7c3aed;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover,
+input[type=submit]:hover,
+input[type=button]:hover {
+  opacity: 0.85;
+}
+
+/* Forms */
+form {
+  margin-bottom: 2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #111827;
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid #7c3aed;
+  outline-offset: 2px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+th,
+td {
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  text-align: left;
+}
+
+th {
+  background-color: #111827;
+  color: white;
+  font-weight: 700;
+}
+
+tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* Horizontal rule */
+hr {
+  border: 0;
+  border-top: 1px solid #d1d5db;
+  margin: 2rem 0;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Blockquotes */
+blockquote {
+  margin: 2rem 0;
+  padding: 1rem;
+  border-left: 4px solid #7c3aed;
+  background-color: #f3f4f6;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=main.css.map */
