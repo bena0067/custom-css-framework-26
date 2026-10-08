@@ -1,6 +1,10 @@
 # custom-css-framework-26
 
-A custom CSS framework built as a team project using Sass.
+# ForgeCSS
+
+ForgeCSS is a lightweight custom CSS framework built with Sass. It provides a consistent theme for standard HTML elements and reusable utility classes for colors, typography, spacing, and borders.
+
+Repository: [custom-css-framework-26](https://github.com/bena0067/custom-css-framework-26)
 
 ## Project Progress
 
